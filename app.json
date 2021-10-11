@@ -1,7 +1,6 @@
 {
   "expo": {
     "name": "Customuse Test",
-    "icon": "./icon.png",
     "version": "1.0.0",
     "ios": {
       "bundleIdentifier": "com.customuse-test.app",
