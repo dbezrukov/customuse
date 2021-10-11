@@ -1,15 +1,11 @@
 {
   "expo": {
     "name": "Customuse Test",
-    "icon": "./icon.jpg",
+    "icon": "./icon.png",
     "version": "1.0.0",
     "ios": {
       "bundleIdentifier": "com.customuse-test.app",
       "buildNumber": "1.0.0"
-    },
-    "android": {
-      "package": "com.customuse-test.app",
-      "versionCode": 1
     }
   }
 }

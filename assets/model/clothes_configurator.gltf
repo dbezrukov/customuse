@@ -1,0 +1,100 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "hoodies_01"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 20767,
+            "max" : [
+                0.6286073923110962,
+                0.7559274435043335,
+                0.4091203212738037
+            ],
+            "min" : [
+                -0.6321967840194702,
+                -0.8269639611244202,
+                -0.35658693313598633
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 20767,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 20767,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 102708,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 249204,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 249204,
+            "byteOffset" : 249204
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 166136,
+            "byteOffset" : 498408
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 205416,
+            "byteOffset" : 664544
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 869960,
+            "uri" : "clothes_configurator.bin"
+        }
+    ]
+}
