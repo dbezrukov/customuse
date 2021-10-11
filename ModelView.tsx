@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { View, Button } from 'react-native';
 
 import { ExpoWebGLRenderingContext, GLView } from 'expo-gl';
-import { Renderer, TextureLoader, loadAsync } from 'expo-three';
+import { Renderer } from 'expo-three';
 import OrbitControlsView from 'expo-three-orbit-controls';
 import { Asset } from 'expo-asset';
 
@@ -17,20 +17,18 @@ import {
   Camera,
 } from 'three';
 
-const hoodieModel = Asset.fromModule(
-  require('./assets/model/clothes_configurator.gltf')
-);
-
-const textureFabricBrown = Asset.fromModule(
-  require('./assets/img/fabric-brown.jpg')
-);
-
-const textureFabricBlue = Asset.fromModule(
-  require('./assets/img/fabric-blue.jpg')
-);
-
 const ModelView = () => {
   let timeout: number;
+
+  const hoodieModel = Asset.fromModule(
+    require('./assets/model/clothes_configurator.gltf')
+  );
+  const textureFabricBrown = Asset.fromModule(
+    require('./assets/img/fabric-brown.jpg')
+  );
+  const textureFabricBlue = Asset.fromModule(
+    require('./assets/img/fabric-blue.jpg')
+  );
 
   const [camera, setCamera] = React.useState<Camera | null>(null);
   const [texture, setTexture] = React.useState<Texture | null>(null);

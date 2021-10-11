@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "Customuse Test",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "ios": {
       "bundleIdentifier": "com.customuse-test.app",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.1"
     }
   }
 }
